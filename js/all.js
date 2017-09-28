@@ -137,6 +137,7 @@ $('.inactive').click(function(){
 });
 $('.ifs').find("em:nth-of-type(1)").hide();
 $('.table-body li .body-first').click(function () {
+    $('.table-body li .body-first').css("background-color","#fff");
     $(this).find(".ifs em").toggle();
     $(this).next(".body-second").animate({height: 'toggle', opacity: 'toggle'}, "slow");
     $(this).css("background-color","#f3f3f3");

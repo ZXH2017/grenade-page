@@ -450,15 +450,14 @@
         margin: 10.4375rem 0 0 0;
         max-width: 100%;
         .team-first{
-          flex: 0 0 32rem;
+          flex: 0.9;
           margin-left: 5%;
         }
         .team-pic{
           flex: 0.75;
           img{
             display: inline-block;
-            min-width: 656px;
-            min-height: 410px;
+            width: 100%;
           }
         }
       }

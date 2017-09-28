@@ -8,8 +8,6 @@ css
 .sass-cache
 **/node_modules
 node_modules
-font
-list.html
-list.txt
+fonts
 
 
