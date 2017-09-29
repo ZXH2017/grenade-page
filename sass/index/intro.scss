@@ -194,7 +194,7 @@ $sim-font: "simhei";
           margin-top: 2.0625rem;
           line-height: 2.0625rem;
           &:nth-of-type(2){
-            margin-top: 0;
+            margin-top: 30px;
           }
           &.art-pic{
             display: flex;
@@ -286,6 +286,18 @@ $sim-font: "simhei";
                    border-radius: 50%;
                  }
                }
+              strong.noStyle{
+                &:before{
+                  display: inline-block;
+                  content: '';
+                  width: 0.5rem;
+                  height: 0.5rem;
+                  margin-right: 0.4375rem;
+                  margin-top:25px;
+                  background-color: #fff;
+                  border-radius: 50%;
+                }
+              }
               margin-bottom: 3.75rem;
             }
           }
@@ -549,7 +561,7 @@ $sim-font: "simhei";
          margin-right: 0.8125rem;
        }
      }
-      .up-button{
+      /*.up-button{
         font-size: 14px;
         color: white;
         width: 12.4375rem;
@@ -558,7 +570,36 @@ $sim-font: "simhei";
         background-color: #e10000;
         cursor: pointer;
 
-      }
+      }*/
+    .div1{
+      float: left;
+      height: 39px;
+      width: 12.4375rem;
+      background: #e10000;
+      position:relative;
+      border-radius:0.1875rem
+    }
+    .div2{
+      text-align:center;
+      padding-top:12px;
+      font-size:14px;
+      font-weight:800;
+      color:white;
+    }
+    .inputstyle{
+      width: 12.4375rem;
+      line-height:2.3125rem;
+      height: 39px;
+      cursor: pointer;
+      font-size: 30px;
+      outline: medium none;
+      position: absolute;
+      filter:alpha(opacity=0);
+      -moz-opacity:0;
+      opacity:0;
+      left:0px;
+      top: 0px;
+    }
   }
   .upload2{
     display: none;
@@ -1218,3 +1259,4 @@ $sim-font: "simhei";
     vertical-align: middle;
   }
 }
+
